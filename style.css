@@ -1,6 +1,9 @@
-body{
-    background-color: aqua;
+body {
+  background-color: aqua;
 }
-h1{
-    color: green;
+h1 {
+  color: green;
+}
+p {
+  font-size: 20px;
 }
