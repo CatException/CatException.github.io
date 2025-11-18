@@ -42,7 +42,7 @@ body {
   );
   z-index: 1;
   transform-origin: bottom right;
-  animation: animate 6s linear infinite;
+  animation: animate 12s linear infinite;
 }
 
 .box::after {
@@ -62,7 +62,7 @@ body {
   );
   z-index: 1;
   transform-origin: bottom right;
-  animation: animate 6s linear infinite;
+  animation: animate 12s linear infinite;
   animation-delay: -3s;
 }
 
@@ -83,7 +83,7 @@ body {
   );
   z-index: 1;
   transform-origin: bottom right;
-  animation: animate 6s linear infinite;
+  animation: animate 12s linear infinite;
   animation-delay: -1.5s;
 }
 
@@ -104,7 +104,7 @@ body {
   );
   z-index: 1;
   transform-origin: bottom right;
-  animation: animate 6s linear infinite;
+  animation: animate 12s linear infinite;
   animation-delay: -4.5s;
 }
 
@@ -152,7 +152,7 @@ body {
   color: #23242a;
   font-size: 1em;
   letter-spacing: 0.05em;
-  transition: 0.5s;
+  transition: 0.1s;
   z-index: 10;
 }
 
@@ -164,7 +164,7 @@ body {
   color: #8f8f8f;
   font-size: 1em;
   letter-spacing: 0.05em;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 
 .box form .inputBox input:valid ~ span,
@@ -183,7 +183,7 @@ body {
   background: #fff;
   border-radius: 4px;
   overflow: hidden;
-  transition: 0.5s;
+  transition: 0.1s;
   pointer-events: none;
 }
 
