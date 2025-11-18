@@ -42,7 +42,7 @@ body {
   );
   z-index: 1;
   transform-origin: bottom right;
-  animation: animate 12s linear infinite;
+  animation: animate 6s linear infinite;
 }
 
 .box::after {
@@ -62,8 +62,8 @@ body {
   );
   z-index: 1;
   transform-origin: bottom right;
-  animation: animate 12s linear infinite;
-  animation-delay: -6s;
+  animation: animate 6s linear infinite;
+  animation-delay: -3s;
 }
 
 .borderLine::before {
@@ -83,8 +83,8 @@ body {
   );
   z-index: 1;
   transform-origin: bottom right;
-  animation: animate 12s linear infinite;
-  animation-delay: -3s;
+  animation: animate 6s linear infinite;
+  animation-delay: -1.5s;
 }
 
 .borderLine::after {
@@ -104,8 +104,8 @@ body {
   );
   z-index: 1;
   transform-origin: bottom right;
-  animation: animate 12s linear infinite;
-  animation-delay: -9s;
+  animation: animate 6s linear infinite;
+  animation-delay: -4.5s;
 }
 
 @keyframes animate {
@@ -149,10 +149,10 @@ body {
   outline: none;
   border: none;
   box-shadow: none;
-  color: #2038c0;
+  color: #23242a;
   font-size: 1em;
   letter-spacing: 0.05em;
-  transition: 0.1s;
+  transition: 0.5s;
   z-index: 10;
 }
 
@@ -164,7 +164,7 @@ body {
   color: #8f8f8f;
   font-size: 1em;
   letter-spacing: 0.05em;
-  transition: 0.1s;
+  transition: 0.5s;
 }
 
 .box form .inputBox input:valid ~ span,
@@ -180,10 +180,10 @@ body {
   bottom: 0;
   width: 100%;
   height: 2px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 4px;
   overflow: hidden;
-  transition: 0.1s;
+  transition: 0.5s;
   pointer-events: none;
 }
 
@@ -206,10 +206,10 @@ body {
 
 .box form .links a:hover,
 .box form .links a:nth-child(2) {
-  color: black;
-  background-color: #fff;
+  color: #23242a;
+  background-color: whitesmoke;
   border-radius: 10px;
-  padding: 2px;
+  padding: 3px;
 }
 .box form .links a:nth-child(2):hover{
   background-color: rgb(186, 186, 186); 
@@ -229,7 +229,6 @@ body {
 #submit:hover{
  background-color: rgb(186, 186, 186); 
 }
-
 #submit:active {
   opacity: 0.8;
 }
