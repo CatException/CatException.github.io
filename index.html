@@ -7,6 +7,18 @@
     <title>Document</title>
   </head>
   <body>
+    <script language="JavaScript">
+      function go() {
+        if (
+          document.form.password.value == "admin" &&
+          document.form.login.value == "admin"
+        ) {
+          document.form.submit();
+        } else {
+          alert("Porfavor ingrese, nombre de usuario y contraseña correcta");
+        }
+      }
+    </script>
     <div class="box">
       <span class="borderLine"></span>
       <form action="">
