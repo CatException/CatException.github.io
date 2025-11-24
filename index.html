@@ -7,38 +7,28 @@
     <title>Document</title>
   </head>
   <body>
-    <script language="JavaScript">
-      function go() {
-        if (
-          document.form.password.value == "admin" &&
-          document.form.login.value == "admin"
-        ) {
-          document.form.submit();
-        } else {
-          alert("Porfavor ingrese, nombre de usuario y contraseña correcta");
-        }
-      }
-    </script>
     <div class="box">
       <span class="borderLine"></span>
-      <form action="">
+      <form action="" name="formLogin">
         <h2>Sign in</h2>
         <div class="inputBox">
-          <input type="text" required />
+          <input type="text" required name="login" />
           <span>Username</span>
           <i></i>
         </div>
         <div class="inputBox">
-          <input type="password" required />
+          <input type="password" required name="password" />
           <span>Password</span>
           <i></i>
         </div>
+        <!--
         <div class="links">
           <a href="#">Forgot Password</a>
           <a href="#">Sign up</a>
-        </div>
-        <input type="submit" id="submit" value="Login" />
+        </div>-->
+        <input type="button" id="submit" value="Login" onclick="go();" />
       </form>
     </div>
+    <script src="scriptLogin.js"></script>
   </body>
 </html>
