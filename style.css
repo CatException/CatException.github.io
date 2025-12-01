@@ -253,8 +253,13 @@ body {
   margin-bottom: 10px;
 }
 #foto {
-  width: 50px;
+  width: 64px;
   height: 40px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  left: 86%;
+  transform: translateX(-50%);
 }
 #error {
   color: red;
