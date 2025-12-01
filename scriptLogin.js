@@ -5,6 +5,7 @@ function go() {
   ) {
     location.assign("main.html");
   } else {
-    alert("Cat Exception");
+    document.getElementById("error").innerHTML =
+      "Contraseña o usuario incorrecto";
   }
 }
